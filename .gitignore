@@ -1,0 +1,73 @@
+########################################
+# 1. Operating-system cruft
+########################################
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Linux
+*~
+
+########################################
+# 2. Build / artifact directories
+########################################
+/dist/
+/build/
+tmp/
+coverage/
+*.log
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+
+########################################
+# 3. Node.js / front-end
+########################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Vite / Next / Nuxt etc.
+.next/
+.nuxt/
+.out/
+.cache/
+# React Native
+android/app/build/
+ios/Pods/
+
+########################################
+# 4. Python / backend
+########################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.env/
+.venv/
+# Django collectstatic output
+staticfiles/
+
+########################################
+# 5. IDE & editor folders
+########################################
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+
+########################################
+# 6. Secrets / env-specific config
+########################################
+.env
+.env.*
+*.key
+*.pem
+settings_local.py
